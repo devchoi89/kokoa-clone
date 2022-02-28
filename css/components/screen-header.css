@@ -1,0 +1,59 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 5px;
+}
+
+.screen-header__title,
+.screen-header__chat-title {
+  font-weight: 600;
+  color: black;
+}
+
+.screen-header__title {
+  font-size: 32px;
+}
+
+.screen-header__chat-title {
+  font-size: 20px;
+}
+
+.screen-header__chat-icons:first-child {
+  margin-left: 10px;
+}
+
+.screen-header__chat-icons,
+.screen-header__chat-title {
+  margin-top: 20px;
+}
+
+.screen-header__icons span,
+.screen-header__chat-icons {
+  color: black;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}
+
+#screen-header__bar {
+  text-align: center;
+  display: block;
+  background: linear-gradient(var(--main-color) 50%, yellowgreen 50%);
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: -15px;
+  color: white;
+}
