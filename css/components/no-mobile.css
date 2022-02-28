@@ -2,13 +2,16 @@
   position: absolute;
   z-index: 99;
   height: 100vh;
-  background-color: var(--main-color);
   width: 100vw;
+  background-color: var(--main-color);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 32px;
   top: 0;
+  font-family: "Charm", cursive;
+  color: white;
+  border-radius: 30px;
 }
 
 @media screen and (max-width: 645px) {
