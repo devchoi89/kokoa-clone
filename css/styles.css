@@ -13,7 +13,7 @@
 /*screens */
 @import url("screens/login.css");
 @import url("screens/friends.css");
-@import url("screens/music.css");
+@import url("screens/playlist.css");
 @import url("screens/player.css");
 @import url("screens/chats.css");
 @import url("screens/chat.css");

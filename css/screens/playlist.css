@@ -1,6 +1,4 @@
 .page-one {
-  width: 100%;
-  height: 95vh;
   background-color: white;
   padding: 15px;
   display: flex;
@@ -11,7 +9,7 @@
 }
 
 .page-one__top-icons {
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,10 +30,8 @@
 }
 
 .page-one_artist-image img {
-  width: 100px;
-  height: 120px;
-  position: relative;
-  bottom: 20px;
+  width: 80px;
+  height: 100px;
 }
 
 .page-one_artist-name,
@@ -89,14 +85,10 @@ h4 {
 }
 
 .page-one_playlist-songs {
-  width: 98%;
-  height: 50%;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  margin-bottom: 50px;
 }
 
 .page-one_playlist-song {
-  width: 100%;
   height: 70px;
   border-radius: 10px;
   margin: 5px 0px;
@@ -158,7 +150,8 @@ h4 {
 }
 
 .page-one_playlist-controller {
-  width: 90%;
+  position: fixed;
+  bottom: 75px;
   height: 65px;
   border-radius: 60px;
   background-color: rgb(49, 49, 49);
@@ -173,6 +166,7 @@ h4 {
   display: flex;
   flex-direction: column;
   font-weight: 550;
+  margin: 85px;
 }
 
 .page-one_playlist-controller_info span:first-child {
@@ -188,8 +182,15 @@ h4 {
 .page-one_playlist-controller_buttons {
   display: flex;
   align-items: center;
+  margin-right: 20px;
 }
 
 .page-one_playlist-controller_buttons i {
   padding-left: 20px;
+}
+
+.page-one_playlist-controller_buttons .welcome-header__bars {
+  position: absolute;
+  left: -20px;
+  top: 3px;
 }
