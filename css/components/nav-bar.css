@@ -44,6 +44,7 @@
   color: white;
   font-weight: 600;
   animation: notificationAnimation 2s ease-in-out infinite;
+  order: 0;
 }
 
 @keyframes appearBtnAnimation {
@@ -78,4 +79,10 @@
 
 .nav__btn:last-child {
   animation-delay: 0.3s;
+}
+
+.nav__btn .fa-comment {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
 }

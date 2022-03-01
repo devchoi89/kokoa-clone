@@ -1,6 +1,6 @@
 .chats-screen {
   padding: 0px var(--horizontal-space);
-  padding-bottom: 500px;
+  padding-bottom: 450px;
 }
 
 .user-component__text .user-component__title--not-bold {

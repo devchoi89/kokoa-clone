@@ -1,6 +1,6 @@
 .page-one {
   background-color: white;
-  padding: 15px;
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,17 +21,18 @@
 .page-one_artist-image {
   display: flex;
   justify-content: center;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  box-shadow: 0px 5px 15px 7px rgba(0, 1, 73, 0.3);
-  margin-bottom: 10px;
+  align-items: center;
+  width: 90%;
+  height: 130px;
+  border-radius: 5px;
   overflow: hidden;
+  background-color: black;
 }
 
 .page-one_artist-image img {
-  width: 80px;
-  height: 100px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
 
 .page-one_artist-name,
@@ -42,14 +43,14 @@
 h1 {
   font-weight: 700;
   font-size: 22px;
-  margin: 15px;
+  margin: 10px;
 }
 
 h4 {
   color: rgb(170, 170, 170);
   font-size: 14px;
-  font-weight: 550;
-  margin-bottom: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .page-one_playlist-buttons {
