@@ -195,3 +195,11 @@ h4 {
   left: -20px;
   top: 3px;
 }
+
+.page-one_playlist-song:hover {
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+  will-change: height;
+  height: 90px;
+  transition: 0.5s;
+}

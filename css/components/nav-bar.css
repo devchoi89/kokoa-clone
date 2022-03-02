@@ -86,3 +86,8 @@
   bottom: 8px;
   right: 5px;
 }
+
+.nav__link:hover {
+  color: var(--main-color);
+  transition: 0.5s;
+}

@@ -28,3 +28,7 @@
 .chats__notification__dot > span {
   margin-right: 5px;
 }
+
+.chats-screen .user-component:hover {
+  cursor: pointer;
+}
