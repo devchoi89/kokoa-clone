@@ -129,6 +129,10 @@
   box-sizing: border-box;
 }
 
+.reply input:focus::placeholder {
+  color: transparent;
+}
+
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;

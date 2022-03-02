@@ -1,3 +1,9 @@
+.main-screen {
+  background-color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
 .search {
   padding: 10px;
   height: 40px;
@@ -26,12 +32,16 @@
 }
 
 .search input::placeholder {
-  color: #9e9e9e;
+  color: #929292;
 }
 
 .search input:focus {
   outline: none;
   border-bottom: 2px yellowgreen solid;
+}
+
+.search input:focus::placeholder {
+  color: transparent;
 }
 
 .recommended-friends {
